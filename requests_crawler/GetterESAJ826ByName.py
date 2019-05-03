@@ -70,50 +70,38 @@ for url in urls:
                     fields = [x.strip() for x in lawsuit.text.replace('\n', '').replace('\t', '').split('  ') if x]
 
                     # Pattern 1
+                    if len(fields) == 6:
+                        pass
                     if len(fields) == 5:
                         if hasNumbers(fields[1]):
-                            return_object.append({name:
-                                {
-                                    'data_coleta': datetime.now(),
-                                    'CNJ': fields[0].strip(),
-                                    'parte_passiva': None,
-                                    'parte_ativa': None,
-                                    'recebimento': datetime.strptime(fields[3].strip().split('-')[0][-11:].strip(),
-                                                                     '%d/%m/%Y'),
-                                    'vara': fields[3].split('-')[1].strip().title(),
-                                    'classe': fields[2].split('/')[0].strip().title()
-                                }
-                            })
+                            i = 3
+                            j = 3
+                            k = 2
 
                         # Pattern 2
                         else:
-                            return_object.append({name:
-                                {
-                                    'data_coleta': datetime.now(),
-                                    'CNJ': fields[0].strip(),
-                                    'parte_passiva': None,
-                                    'parte_ativa': None,
-                                    'recebimento': datetime.strptime(fields[4].strip().split('-')[0][-11:].strip(),
-                                                                     '%d/%m/%Y'),
-                                    'vara': fields[4].split('-')[1].strip().title(),
-                                    'classe': fields[1].split('/')[0].strip().title()
-                                }
-                            })
+                            i = 4
+                            j = 4
+                            k = 1
+
                     # Pattern 3
                     if len(fields) == 4:
-                        return_object.append({name:
-                            {
-                                'data_coleta': datetime.now(),
-                                'CNJ': fields[0].strip(),
-                                'parte_passiva': None,
-                                'parte_ativa': None,
-                                'recebimento': datetime.strptime(fields[2].strip().split('-')[0][-11:].strip(),
-                                                                 '%d/%m/%Y'),
-                                'vara': fields[2].split('-')[1].strip().title(),
-                                'classe': fields[1].split('/')[0].strip().title()
-                            }
-                        })
+                        i = 2
+                        j = 2
+                        k = 1
 
+                    return_object.append({name:
+                        {
+                            'data_coleta': datetime.now(),
+                            'CNJ': fields[0].strip(),
+                            'parte_passiva': None,
+                            'parte_ativa': None,
+                            'recebimento': datetime.strptime(fields[i].strip().split('-')[0][-11:].strip(),
+                                                             '%d/%m/%Y'),
+                            'vara': fields[j].split('-')[1].strip().title(),
+                            'classe': fields[k].split('/')[0].strip().title()
+                        }
+                    })
                 except Exception as ex:
                     print(ex)
 print('a')
