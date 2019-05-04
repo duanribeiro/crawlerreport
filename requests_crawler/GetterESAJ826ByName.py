@@ -1,39 +1,33 @@
 import re
-from datetime import datetime
-
 import requests
+from datetime import datetime
 from bs4 import BeautifulSoup
 
+def hasNumbers(inputString):
+    return any(char.isdigit() for char in inputString)
+
+return_object = []
 urls = [
     "http://esaj.tjsp.jus.br/cpopg/search.do"
 ]
-
 name_list = [
     'GVT SA',
     'TELEFONICA SA',
-    'VIVO SA',
+    'VIVO BRASIL SA',
     'TELESP SA',
     'COMMCENTER SA',
     'GLOBAL VILLAGE TELECOM',
     'TELECOMUNICACOES DE SAO PAULO'
 ]
-
-
-def hasNumbers(inputString):
-    return any(char.isdigit() for char in inputString)
-
-
-return_object = []
-
 for url in urls:
     for name in name_list:
         request_get_params = {
-            'paginaConsulta': '1',
-            'cbPesquisa': 'NMPARTE',
+            'paginaConsulta': '1',  # Número da paginação
+            'cbPesquisa': 'NMPARTE', # Filtro de pesquisa
             'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
-            'dadosConsulta.valorConsulta': name,
-            'chNmCompleto': 'true',
-            'dadosConsulta.localPesquisa.cdLocal': '100'
+            'dadosConsulta.valorConsulta': name, # String nome da parte
+            'chNmCompleto': 'true', # Busca por nome completo
+            'dadosConsulta.localPesquisa.cdLocal': '100' # Comarca
         }
         response = requests.get(url=url, params=request_get_params)
         soup = BeautifulSoup(response.content, features="lxml")
@@ -62,33 +56,20 @@ for url in urls:
                 soup = BeautifulSoup(response.content, features="lxml")
 
             lawsuits = soup.find_all("div", {"id": re.compile('divProcesso')})
-            i = 0
             for lawsuit in lawsuits:
-                i += 1
-                print(i)
                 try:
                     fields = [x.strip() for x in lawsuit.text.replace('\n', '').replace('\t', '').split('  ') if x]
 
-                    # Pattern 1
+                    # É preciso associar as informações, pois cada processo tem um 'pattern'
                     if len(fields) == 6:
-                        pass
+                        i, j = 5, 2
                     if len(fields) == 5:
                         if hasNumbers(fields[1]):
-                            i = 3
-                            j = 3
-                            k = 2
-
-                        # Pattern 2
+                            i, j = 3, 2
                         else:
-                            i = 4
-                            j = 4
-                            k = 1
-
-                    # Pattern 3
+                            i, j = 4, 1
                     if len(fields) == 4:
-                        i = 2
-                        j = 2
-                        k = 1
+                        i, j = 2, 1
 
                     return_object.append({name:
                         {
@@ -98,10 +79,11 @@ for url in urls:
                             'parte_ativa': None,
                             'recebimento': datetime.strptime(fields[i].strip().split('-')[0][-11:].strip(),
                                                              '%d/%m/%Y'),
-                            'vara': fields[j].split('-')[1].strip().title(),
-                            'classe': fields[k].split('/')[0].strip().title()
+                            'vara': fields[i].split('-')[1].strip().title(),
+                            'classe': fields[j].split('/')[0].strip().title()
                         }
                     })
                 except Exception as ex:
-                    print(ex)
-print('a')
+                    print(f'Pattern não encontrado - {fields[0]}')
+
+print('Processo completo!')
