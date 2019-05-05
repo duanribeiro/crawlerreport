@@ -1,8 +1,11 @@
+
+
 ![ScrapyLogo](logos/scrapy-logo.png)
 # Scrapy – The complete web scraping framework
 
 For those of you who are familiar with Django, Scrapy is a lot similar to it.<br>
 The requests we make on Scrapy are scheduled and processed asynchronously, this happens because it is built on top of Twisted, an asynchronous framework.<br>
+
 
 ## Pros
 * Good Documentation
@@ -21,6 +24,20 @@ The requests we make on Scrapy are scheduled and processed asynchronously, this 
 ## Best Use Case
 * Scrapy is best if you need to build a real spider or web-crawler for large web scraping needs, instead of just scraping a few pages here and there. It can offer extensibility and flexibility to your project. 
 
+## Example
+```python
+import scrapy
+class WikiSpider(scrapy.Spider):
+    name = 'wiki'
+    allowed_domains = ['pt.wikipedia.org']
+    start_urls = ['https://pt.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro']
+    
+    def parse(self, response):
+        return {
+            "url": response.url,
+            "title": response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
+        }
+```
 ![RequestsLogo](logos/requests-logo.png)
 # Requests – HTTP for humans
 
