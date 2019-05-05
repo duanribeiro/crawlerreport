@@ -10,7 +10,7 @@ class GetterESAJ826ByName(scrapy.Spider):
             "http://esaj.tjsp.jus.br/cpopg/open.do"
         ]
 
-        formdata = {
+        request_get_params = {
             'dadosConsulta.localPesquisa.cdLocal': '100',
             'cbPesquisa': 'NMPARTE',
             'dadosConsulta.tipoNuProcesso': 'UNIFICADO',
@@ -20,10 +20,9 @@ class GetterESAJ826ByName(scrapy.Spider):
 
         for url in urls:
             yield scrapy.http.FormRequest(url=url,
-                                          callback=self.parse,
                                           method='GET',
-                                          formdata=formdata
-                                          )
+                                          callback=self.parse,
+                                          formdata=request_get_params)
 
     def parse(self, response):
         response.xpath('//*[@id="listagemDeProcessos"]')
