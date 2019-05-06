@@ -10,11 +10,6 @@ pr.enable()
 url = "http://esaj.tjsp.jus.br/cpopg/search.do"
 name_list = [
     'TELEFONICA SA'
-    # 'VIVO BRASIL SA',
-    # 'TELESP SA',
-    # 'COMMCENTER SA',
-    # 'GLOBAL VILLAGE TELECOM',
-    # 'TELECOMUNICACOES DE SAO PAULO'
 ]
 
 # -------------------------------------------------------------------------------------- START
