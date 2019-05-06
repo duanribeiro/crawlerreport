@@ -1,0 +1,447 @@
+         409477 function calls (406448 primitive calls) in 99.360 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.006    0.006   97.918   97.918 /home/drribeiro/PycharmProjects/CrawlerReport/selenium_example/GetterESAJ826ByName.py:17(run)
+       50   50.054    1.001   50.054    1.001 {built-in method time.sleep}
+      892    0.009    0.000   49.281    0.055 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:292(execute)
+      892    0.014    0.000   49.253    0.055 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/remote_connection.py:447(execute)
+      892    0.029    0.000   49.193    0.055 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/remote_connection.py:468(_request)
+      892    0.008    0.000   48.713    0.055 /usr/lib/python3.6/http/client.py:1287(getresponse)
+      892    0.017    0.000   48.675    0.055 /usr/lib/python3.6/http/client.py:290(begin)
+      892    0.020    0.000   48.435    0.054 /usr/lib/python3.6/http/client.py:257(_read_status)
+     3568    0.016    0.000   48.418    0.014 {method 'readline' of '_io.BufferedReader' objects}
+     1086    0.006    0.000   48.406    0.045 /usr/lib/python3.6/socket.py:572(readinto)
+     1086   48.397    0.045   48.397    0.045 {method 'recv_into' of '_socket.socket' objects}
+      397    0.001    0.000   31.000    0.078 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:615(_execute)
+      198    0.001    0.000   20.300    0.103 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:78(click)
+       49    0.000    0.000   10.428    0.213 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:320(get)
+       49    0.000    0.000    7.018    0.143 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:447(send_keys)
+      326    0.002    0.000    5.329    0.016 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:932(find_element)
+       93    0.000    0.000    2.165    0.023 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:73(text)
+       49    0.001    0.000    2.120    0.043 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:471(find_element_by_name)
+        8    0.000    0.000    2.059    0.257 /home/drribeiro/PycharmProjects/CrawlerReport/selenium_example/GetterESAJ826ByName.py:50(<listcomp>)
+       97    0.000    0.000    1.634    0.017 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:662(page_source)
+      104    0.000    0.000    1.551    0.015 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:369(find_element_by_xpath)
+      163    0.000    0.000    1.526    0.009 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:336(find_element_by_id)
+        1    0.000    0.000    1.442    1.442 /home/drribeiro/PycharmProjects/CrawlerReport/selenium_example/GetterESAJ826ByName.py:12(__init__)
+        1    0.000    0.000    1.442    1.442 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/webdriver.py:33(__init__)
+       49    0.000    0.000    1.408    0.029 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:93(clear)
+        1    0.000    0.000    1.005    1.005 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py:61(start)
+       22    0.000    0.000    0.460    0.021 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:957(find_elements)
+        1    0.000    0.000    0.435    0.435 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:112(__init__)
+        1    0.000    0.000    0.435    0.435 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:222(start_session)
+        8    0.000    0.000    0.307    0.038 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:421(find_elements_by_link_text)
+      892    0.016    0.000    0.211    0.000 /usr/lib/python3.6/http/client.py:194(parse_headers)
+      892    0.008    0.000    0.182    0.000 /usr/lib/python3.6/email/parser.py:60(parsestr)
+      892    0.002    0.000    0.182    0.000 /usr/lib/python3.6/http/client.py:1236(request)
+      892    0.018    0.000    0.180    0.000 /usr/lib/python3.6/http/client.py:1241(_send_request)
+      892    0.006    0.000    0.175    0.000 /usr/lib/python3.6/email/parser.py:42(parse)
+       14    0.000    0.000    0.152    0.011 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:387(find_elements_by_xpath)
+      892    0.003    0.000    0.145    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/utils.py:37(load_json)
+      892    0.003    0.000    0.142    0.000 /usr/lib/python3.6/json/__init__.py:302(loads)
+      892    0.004    0.000    0.139    0.000 /usr/lib/python3.6/json/decoder.py:334(decode)
+      892    0.130    0.000    0.130    0.000 /usr/lib/python3.6/json/decoder.py:345(raw_decode)
+      892    0.002    0.000    0.117    0.000 /usr/lib/python3.6/email/feedparser.py:173(feed)
+        8    0.000    0.000    0.110    0.014 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:353(find_elements_by_xpath)
+        8    0.000    0.000    0.110    0.014 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:655(find_elements)
+     1784    0.004    0.000    0.108    0.000 /usr/lib/python3.6/email/feedparser.py:178(_call_parse)
+     1784    0.017    0.000    0.104    0.000 /usr/lib/python3.6/email/feedparser.py:218(_parsegen)
+        8    0.000    0.000    0.081    0.010 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/support/wait.py:62(until)
+        8    0.000    0.000    0.081    0.010 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/support/expected_conditions.py:62(__call__)
+        8    0.000    0.000    0.081    0.010 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/support/expected_conditions.py:393(_find_element)
+      892    0.002    0.000    0.068    0.000 /usr/lib/python3.6/http/client.py:1223(endheaders)
+      892    0.008    0.000    0.065    0.000 /usr/lib/python3.6/http/client.py:1017(_send_output)
+     6054    0.033    0.000    0.061    0.000 /usr/lib/python3.6/http/client.py:1195(putheader)
+     1594    0.004    0.000    0.055    0.000 /usr/lib/python3.6/http/client.py:956(send)
+        2    0.000    0.000    0.053    0.027 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:403(find_element_by_link_text)
+     1594    0.048    0.000    0.048    0.000 {method 'sendall' of '_socket.socket' objects}
+      892    0.016    0.000    0.047    0.000 /usr/lib/python3.6/http/client.py:1071(putrequest)
+     3568    0.010    0.000    0.044    0.000 /usr/lib/python3.6/email/message.py:564(get_content_type)
+     8028    0.013    0.000    0.033    0.000 /usr/lib/python3.6/email/message.py:462(get)
+      892    0.003    0.000    0.032    0.000 /usr/lib/python3.6/email/feedparser.py:184(close)
+     2676    0.003    0.000    0.031    0.000 /usr/lib/python3.6/email/message.py:588(get_content_maintype)
+      892    0.005    0.000    0.031    0.000 /usr/lib/python3.6/http/client.py:438(read)
+      893    0.007    0.000    0.030    0.000 /usr/lib/python3.6/urllib/parse.py:361(urlparse)
+      892    0.005    0.000    0.030    0.000 /usr/lib/python3.6/http/client.py:227(__init__)
+      892    0.003    0.000    0.025    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/utils.py:33(dump_json)
+      892    0.018    0.000    0.025    0.000 /usr/lib/python3.6/socket.py:218(makefile)
+      892    0.012    0.000    0.024    0.000 /usr/lib/python3.6/email/feedparser.py:471(_parse_headers)
+      892    0.002    0.000    0.022    0.000 /usr/lib/python3.6/json/__init__.py:183(dumps)
+     6244    0.004    0.000    0.020    0.000 /usr/lib/python3.6/email/_policybase.py:311(header_fetch_parse)
+      892    0.004    0.000    0.020    0.000 /usr/lib/python3.6/json/encoder.py:182(encode)
+      892    0.006    0.000    0.019    0.000 /usr/lib/python3.6/string.py:105(substitute)
+     1784    0.005    0.000    0.018    0.000 /usr/lib/python3.6/http/client.py:713(getheader)
+      893    0.009    0.000    0.017    0.000 /usr/lib/python3.6/urllib/parse.py:394(urlsplit)
+      892    0.008    0.000    0.017    0.000 /usr/lib/python3.6/email/feedparser.py:139(__init__)
+      892    0.006    0.000    0.017    0.000 /usr/lib/python3.6/email/feedparser.py:101(push)
+     6244    0.007    0.000    0.016    0.000 /usr/lib/python3.6/email/_policybase.py:281(_sanitize_header)
+      892    0.015    0.000    0.015    0.000 /usr/lib/python3.6/json/encoder.py:204(iterencode)
+      892    0.004    0.000    0.013    0.000 /usr/lib/python3.6/http/client.py:596(_safe_read)
+      900    0.008    0.000    0.013    0.000 {method 'sub' of '_sre.SRE_Pattern' objects}
+      892    0.001    0.000    0.012    0.000 /usr/lib/python3.6/http/client.py:400(_close_conn)
+     2784    0.012    0.000    0.012    0.000 {method 'decode' of 'bytes' objects}
+     4460    0.005    0.000    0.012    0.000 /usr/lib/python3.6/email/feedparser.py:128(__next__)
+      892    0.004    0.000    0.011    0.000 {method 'close' of '_io.BufferedReader' objects}
+ 3692/892    0.008    0.000    0.011    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:258(_wrap_value)
+     1784    0.005    0.000    0.011    0.000 /usr/lib/python3.6/email/message.py:497(get_all)
+     5522    0.010    0.000    0.010    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+    21007    0.010    0.000    0.010    0.000 {method 'encode' of 'str' objects}
+    18687    0.010    0.000    0.010    0.000 {built-in method builtins.hasattr}
+      892    0.004    0.000    0.009    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/remote_connection.py:165(get_remote_connection_headers)
+     1784    0.003    0.000    0.009    0.000 /usr/lib/python3.6/logging/__init__.py:1286(debug)
+     1784    0.005    0.000    0.009    0.000 /usr/lib/python3.6/email/_policybase.py:293(header_source_parse)
+     3568    0.006    0.000    0.009    0.000 /usr/lib/python3.6/email/message.py:29(_splitparam)
+     6054    0.008    0.000    0.008    0.000 {method 'fullmatch' of '_sre.SRE_Pattern' objects}
+    25940    0.008    0.000    0.008    0.000 {built-in method builtins.isinstance}
+      892    0.004    0.000    0.008    0.000 /usr/lib/python3.6/http/client.py:405(close)
+      892    0.003    0.000    0.007    0.000 {method 'read' of '_io.BufferedReader' objects}
+      960    0.007    0.000    0.007    0.000 {method 'replace' of 'str' objects}
+     1784    0.007    0.000    0.007    0.000 {method 'readlines' of '_io._IOBase' objects}
+    36389    0.007    0.000    0.007    0.000 {method 'lower' of 'str' objects}
+      892    0.005    0.000    0.007    0.000 /usr/lib/python3.6/socket.py:649(close)
+      892    0.005    0.000    0.007    0.000 /usr/lib/python3.6/http/client.py:804(_get_content_length)
+      892    0.007    0.000    0.007    0.000 /usr/lib/python3.6/email/feedparser.py:53(__init__)
+     6244    0.004    0.000    0.007    0.000 /usr/lib/python3.6/email/utils.py:51(_has_surrogates)
+     6681    0.007    0.000    0.007    0.000 {method 'split' of 'str' objects}
+      892    0.003    0.000    0.006    0.000 /usr/lib/python3.6/email/feedparser.py:70(close)
+     1784    0.003    0.000    0.006    0.000 /usr/lib/python3.6/logging/__init__.py:1544(isEnabledFor)
+     4460    0.006    0.000    0.006    0.000 /usr/lib/python3.6/email/feedparser.py:78(readline)
+     6946    0.004    0.000    0.006    0.000 /usr/lib/python3.6/http/client.py:995(_output)
+     6054    0.005    0.000    0.005    0.000 {method 'search' of '_sre.SRE_Pattern' objects}
+      892    0.005    0.000    0.005    0.000 /usr/lib/python3.6/socket.py:560(__init__)
+      170    0.000    0.000    0.005    0.000 {built-in method strptime}
+ 1023/892    0.002    0.000    0.005    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:275(_unwrap_value)
+      893    0.002    0.000    0.005    0.000 /usr/lib/python3.6/urllib/parse.py:146(username)
+     1288    0.003    0.000    0.004    0.000 /usr/lib/python3.6/string.py:119(convert)
+      892    0.002    0.000    0.004    0.000 /usr/lib/python3.6/http/client.py:370(_check_close)
+     1788    0.004    0.000    0.004    0.000 /usr/lib/python3.6/urllib/parse.py:109(_coerce_args)
+      892    0.002    0.000    0.004    0.000 {function HTTPResponse.close at 0x7f15e447a598}
+      892    0.003    0.000    0.004    0.000 /usr/lib/python3.6/email/feedparser.py:197(_new_message)
+    18477    0.004    0.000    0.004    0.000 {method 'append' of 'list' objects}
+     1784    0.004    0.000    0.004    0.000 /usr/lib/python3.6/email/message.py:120(__init__)
+     8730    0.004    0.000    0.004    0.000 {method 'join' of 'bytes' objects}
+     4460    0.003    0.000    0.004    0.000 /usr/lib/python3.6/http/client.py:1243(<genexpr>)
+11370/11368    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+      170    0.000    0.000    0.003    0.000 /usr/lib/python3.6/_strptime.py:562(_strptime_datetime)
+      485    0.002    0.000    0.003    0.000 /usr/lib/python3.6/urllib/parse.py:386(_splitnetloc)
+      170    0.001    0.000    0.003    0.000 /usr/lib/python3.6/_strptime.py:321(_strptime)
+     7136    0.003    0.000    0.003    0.000 {method 'startswith' of 'str' objects}
+     1978    0.003    0.000    0.003    0.000 /usr/lib/python3.6/socket.py:611(readable)
+      893    0.002    0.000    0.003    0.000 /usr/lib/python3.6/urllib/parse.py:178(_userinfo)
+     1784    0.003    0.000    0.003    0.000 /usr/lib/python3.6/logging/__init__.py:1530(getEffectiveLevel)
+     1784    0.002    0.000    0.003    0.000 /usr/lib/python3.6/email/feedparser.py:122(pushlines)
+     3653    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.003    0.003 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/remote_connection.py:23(__init__)
+    10413    0.003    0.000    0.003    0.000 {method 'strip' of 'str' objects}
+        1    0.001    0.001    0.003    0.003 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/remote_connection.py:194(__init__)
+      892    0.002    0.000    0.002    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/errorhandler.py:103(check_response)
+        5    0.000    0.000    0.002    0.000 /usr/lib/python3.6/socket.py:688(create_connection)
+     4616    0.002    0.000    0.002    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.002    0.001 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/utils.py:97(is_connectable)
+      893    0.001    0.000    0.002    0.000 <string>:12(__new__)
+     1086    0.001    0.000    0.002    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      423    0.001    0.000    0.002    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:271(create_web_element)
+      892    0.002    0.000    0.002    0.000 /usr/lib/python3.6/socket.py:403(_decref_socketios)
+        1    0.000    0.000    0.002    0.002 /usr/lib/python3.6/subprocess.py:588(__init__)
+      892    0.001    0.000    0.002    0.000 /usr/lib/python3.6/email/feedparser.py:210(_pop_message)
+      892    0.001    0.000    0.002    0.000 /usr/lib/python3.6/http/client.py:417(flush)
+        1    0.000    0.000    0.002    0.002 /usr/lib/python3.6/subprocess.py:1208(_execute_child)
+     1784    0.001    0.000    0.002    0.000 /usr/lib/python3.6/email/message.py:479(set_raw)
+      892    0.001    0.000    0.002    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/remote_connection.py:546(<listcomp>)
+     1414    0.002    0.000    0.002    0.000 {built-in method builtins.min}
+     3588    0.002    0.000    0.002    0.000 {method 'partition' of 'str' objects}
+      892    0.001    0.000    0.002    0.000 /usr/lib/python3.6/email/message.py:303(set_payload)
+     1784    0.002    0.000    0.002    0.000 {method 'read' of '_io.StringIO' objects}
+     3568    0.002    0.000    0.002    0.000 {method 'seek' of '_io.StringIO' objects}
+5472/5428    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:966(_find_and_load)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/socket.py:728(getaddrinfo)
+     1379    0.001    0.000    0.001    0.000 {built-in method __new__ of type object at 0x9cff80}
+     1784    0.001    0.000    0.001    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:936(_find_and_load_unlocked)
+     1288    0.001    0.000    0.001    0.000 {method 'group' of '_sre.SRE_Match' objects}
+        2    0.000    0.000    0.001    0.001 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py:114(is_connectable)
+     3568    0.001    0.000    0.001    0.000 {method 'count' of 'str' objects}
+      702    0.001    0.000    0.001    0.000 /usr/lib/python3.6/http/client.py:149(_encode)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:651(_load_unlocked)
+     1784    0.001    0.000    0.001    0.000 {method 'extend' of 'collections.deque' objects}
+     1086    0.001    0.000    0.001    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:672(exec_module)
+        6    0.001    0.000    0.001    0.000 {built-in method _socket.getaddrinfo}
+      892    0.001    0.000    0.001    0.000 /usr/lib/python3.6/email/parser.py:18(__init__)
+        9    0.000    0.000    0.001    0.000 /usr/lib/python3.6/re.py:231(compile)
+        9    0.000    0.000    0.001    0.000 /usr/lib/python3.6/re.py:286(_compile)
+      892    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
+      892    0.001    0.000    0.001    0.000 {method 'write' of '_io.StringIO' objects}
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/sre_compile.py:557(compile)
+     1818    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+      892    0.001    0.000    0.001    0.000 /usr/lib/python3.6/string.py:88(__init__)
+     1784    0.001    0.000    0.001    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/_strptime.py:12(<module>)
+      692    0.000    0.000    0.001    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:267(<genexpr>)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/_strptime.py:273(compile)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/_strptime.py:185(__init__)
+        5    0.001    0.000    0.001    0.000 {method 'connect' of '_socket.socket' objects}
+      910    0.001    0.000    0.001    0.000 {method 'rpartition' of 'str' objects}
+      892    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+     1800    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+       98    0.000    0.000    0.001    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/utils.py:139(keys_to_typing)
+      893    0.001    0.000    0.001    0.000 {built-in method builtins.any}
+      891    0.001    0.000    0.001    0.000 /usr/lib/python3.6/http/client.py:428(isclosed)
+        1    0.000    0.000    0.001    0.001 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/utils.py:43(find_connectable_ip)
+      893    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
+      172    0.000    0.000    0.001    0.000 /usr/lib/python3.6/_strptime.py:29(_getlang)
+        1    0.001    0.001    0.001    0.001 {built-in method posix.read}
+     2676    0.001    0.000    0.001    0.000 {method 'popleft' of 'collections.deque' objects}
+     1943    0.001    0.000    0.001    0.000 {method 'end' of '_sre.SRE_Match' objects}
+        1    0.001    0.001    0.001    0.001 {built-in method _posixsubprocess.fork_exec}
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.6/sre_compile.py:542(_code)
+      892    0.001    0.000    0.001    0.000 {function HTTPResponse.flush at 0x7f15e447a620}
+      172    0.000    0.000    0.001    0.000 /usr/lib/python3.6/locale.py:565(getlocale)
+      423    0.001    0.000    0.001    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:59(__init__)
+     14/2    0.000    0.000    0.001    0.000 /usr/lib/python3.6/sre_compile.py:64(_compile)
+      896    0.001    0.000    0.001    0.000 {method 'extend' of 'list' objects}
+     1788    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:98(_noop)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:62(_make_w3c_caps)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/http/client.py:933(connect)
+     1784    0.000    0.000    0.000    0.000 /usr/lib/python3.6/email/feedparser.py:125(__iter__)
+      127    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:288(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:844(parse)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:250(pattern)
+     13/1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/copy.py:132(deepcopy)
+      172    0.000    0.000    0.000    0.000 /usr/lib/python3.6/locale.py:462(_parse_localename)
+      6/2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:407(_parse_sub)
+     12/2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:470(_parse)
+      2/1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/copy.py:236(_deepcopy_dict)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:743(get_code)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:52(__init__)
+      218    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:267(__call__)
+       95    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:803(__and__)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:83(clear_cache)
+      172    0.000    0.000    0.000    0.000 /usr/lib/python3.6/locale.py:379(normalize)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/encodings/idna.py:147(encode)
+       55    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_collections_abc.py:742(__iter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/socket.py:139(__init__)
+       48    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/socket.py:413(close)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3.6/socket.py:97(_intenum_converter)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:223(_compile_charset)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:870(_find_spec)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/socket.py:409(_real_close)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1149(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1117(_get_spec)
+      218    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:517(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/encodings/__init__.py:71(search_function)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:154(hostname)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:231(__seqToRE)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:250(_optimize_charset)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py:106(assert_process_still_running)
+      172    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+      109    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:794(fsencode)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:190(_hostinfo)
+       54    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:664(__getitem__)
+       38    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:100(__calc_month)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:852(poll)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:92(__calc_weekday)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:246(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1366(_internal_poll)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/http/client.py:836(__init__)
+      159    0.000    0.000    0.000    0.000 {method 'groupdict' of '_sre.SRE_Match' objects}
+      190    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:165(port)
+       87    0.000    0.000    0.000    0.000 {built-in method now}
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/service.py:26(__init__)
+       26    0.000    0.000    0.000    0.000 /usr/lib/python3.6/calendar.py:58(__getitem__)
+       44    0.000    0.000    0.000    0.000 /usr/lib/python3.6/re.py:249(escape)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py:37(__init__)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.6/calendar.py:77(__getitem__)
+      174    0.000    0.000    0.000    0.000 {method 'title' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/utils.py:31(free_port)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:95(<listcomp>)
+      108    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:746(decode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:450(urlunparse)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/copy.py:252(_keep_alive)
+       74    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:253(get)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       55    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:687(__iter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:102(<listcomp>)
+     18/6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:173(getwidth)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/re.py:324(_subx)
+      108    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:232(__next)
+      318    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:103(<listcomp>)
+       54    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:742(encode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:119(__calc_date_time)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:96(closegroup)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py:51(service_url)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/re.py:314(_compile_repl)
+        5    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:876(parse_template)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/encodings/idna.py:300(getregentry)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:482(_compile_info)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        8    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/support/wait.py:27(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+        2    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/utils.py:81(join_host_port)
+      159    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1154(_get_handles)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:96(<listcomp>)
+       54    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:248(match)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:797(__or__)
+       38    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:163(__getitem__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+      159    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.waitpid}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:164(__calc_timezone)
+       52    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:102(fixup)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+        4    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/encodings/__init__.py:43(normalize_encoding)
+        4    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method math.ceil}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/urllib/parse.py:461(urlunsplit)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:828(fix_flags)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:403(cached)
+        1    0.000    0.000    0.000    0.000 {built-in method time.tzset}
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+       49    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webelement.py:590(parent)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:773(_get_devnull)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:84(opengroup)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:294(_class_escape)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/copy.py:210(_deepcopy_list)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:376(_mk_bitmap)
+       27    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:171(append)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:223(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/codecs.py:93(__new__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+      113    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:174(to_capabilities)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/posixpath.py:154(dirname)
+        8    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getsockname' of '_socket.socket' objects}
+       59    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:107(__calc_am_pm)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.open}
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/copy.py:190(_deepcopy_atomic)
+       19    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:285(tell)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       34    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        8    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/support/expected_conditions.py:59(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:266(getuntil)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:318(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        8    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 {method 'bind' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'listen' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:441(_get_charset_prefix)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        2    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/webdriver.py:131(create_options)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:378(<listcomp>)
+      2/1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:414(_get_literal_prefix)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:111(__init__)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:159(__len__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:342(_escape)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:885(addgroup)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_collections_abc.py:676(items)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:311(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:707(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+       16    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+       36    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:1164(file_detector)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/platform.py:1082(system)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:203(_cleanup)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:539(isstring)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:780(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+        3    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:33(LocaleTime)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:182(TimeRE)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/service.py:44(command_line_args)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:27(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/webdriver.py:208(start_client)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/mobile.py:45(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/http/client.py:879(_get_hostport)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:76(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/posixpath.py:41(_get_sep)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:843(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:847(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:140(<listcomp>)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_strptime.py:222(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:35(binary_location)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:52(debugger_address)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:71(arguments)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:90(extensions)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/options.py:137(experimental_options)
+        1    0.000    0.000    0.000    0.000 /usr/local/lib/python3.6/dist-packages/selenium/webdriver/remote/switch_to.py:30(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/platform.py:944(uname)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_collections_abc.py:698(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:424(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/calendar.py:53(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:41(_relax_case)
+
+

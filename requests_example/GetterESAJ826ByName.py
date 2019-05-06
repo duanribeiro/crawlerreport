@@ -1,7 +1,7 @@
+import math
 import re
 from datetime import datetime
 
-import math
 import requests
 from bs4 import BeautifulSoup
 
@@ -19,7 +19,7 @@ class GetterESAJ826ByName():
         for name in self.name_list:
             try:
                 print(f'NOME DO FILTRO: {name}')
-                for comarca in range(1, 10):
+                for comarca in range(1, 50):
                     print(f'* Comarca: {comarca}')
                     request_get_params = {
                         'paginaConsulta': '1',  # Número da paginação

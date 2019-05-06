@@ -18,7 +18,7 @@ class GetterESAJ826ByName():
         return_object = []
 
         for name in self.name_list:
-            for comarca in range(1, 10):
+            for comarca in range(1, 50):
                 self.driver.get(self.url)
                 self.driver.find_element_by_xpath(f'//*[@id="id_Foro"]/option[{comarca}]').click()  # Foro Central Cívil
                 self.driver.find_element_by_xpath('//*[@id="cbPesquisa"]/option[2]').click()
@@ -27,7 +27,6 @@ class GetterESAJ826ByName():
                 time.sleep(1)
                 self.driver.find_element_by_name('chNmCompleto').click()
                 self.driver.find_element_by_id('pbEnviar').click()
-                time.sleep(1)
 
                 if 'Foram encontrados muitos processos para os parâmetros informados.' in self.driver.page_source:
                     return_object.append({name: 'encontrados muitos processos'})

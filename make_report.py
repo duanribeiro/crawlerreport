@@ -26,9 +26,10 @@ result_2 = selenium_ESAJ826.run()
 # -------------------------------------------------------------------------------------- END
 
 pr.disable()
-sortby = 'cumulative'
 s = io.StringIO()
+sortby = 'cumulative'
 ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+ps.print_stats()
 # ps.dump_stats('result_report.prof')
 
 print(s.getvalue())
